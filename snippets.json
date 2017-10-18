@@ -1,7 +1,17 @@
+
+{
 	"Print to console": {
 		"prefix": "lv",
 		"body": [
 			"console.log('>>>>>> $1', $1);"
 		],
 		"description": "Log variables"
+	},
+	
+	"startCommentOutJSX": {
+	    "prefix": "cc",
+	    "body": ["{/* ${TM_SELECTED_TEXT} */}"],
+	    "description": "comment out jsx"
 	}
+
+}
